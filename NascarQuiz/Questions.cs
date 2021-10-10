@@ -13,7 +13,7 @@ namespace NascarQuiz
         public static void init() 
         {
           string[] round1Questions = new string[10];
-            // populate the array with
+            // populate the array with data
             round1Questions[0] = "When was the 1st Daytona 500 ran?";
             round1Questions[1] = "Where was the first NASCAR race held";
             round1Questions[2] = "Who was the first driver to win 3 NASCAR Cup series Championships?";
@@ -28,9 +28,10 @@ namespace NascarQuiz
              string[] round2Questions = new string[5];
             round2Questions[0] = "What year was the current playoff format intoduced?";
             round2Questions[1] = "Who was the 1st NASCAR Cup Series Champion";
-            round2Questions[2] = "What was the original start of the NASCAR Cup series Season?";
+            round2Questions[2] = "Where was the original start of the NASCAR Cup series Season?";
             round2Questions[3] = "Who was the first African American to win a NASCAR Cup Series Championship?";
             round2Questions[4]= "What year was the first Talladega 500?";
-}
-}
+        
+        }
+    }
 }
